@@ -32,7 +32,7 @@ spec:
         image: nginx:latest
 
         ports:
-        - containerPort: 3000
+        - containerPort: 80
 
         resources:
           requests:
@@ -57,5 +57,5 @@ spec:
 
   ports:
   - protocol: TCP
-    port: 3000
-    targetPort: 3000
+    port: 80
+    targetPort: 80
