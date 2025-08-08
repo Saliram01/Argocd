@@ -13,11 +13,7 @@ metadata:
   namespace: demo-ui
 
 spec:
-<<<<<<< HEAD
   replicas: 1
-=======
-  replicas: 4
->>>>>>> 58dbc3ecabf7822e49bba57bf2a5f3c9c2c4d022
   strategy:
     type: RollingUpdate
 
