@@ -13,7 +13,11 @@ metadata:
   namespace: demo-ui
 
 spec:
+<<<<<<< HEAD
   replicas: 1
+=======
+  replicas: 4
+>>>>>>> 58dbc3ecabf7822e49bba57bf2a5f3c9c2c4d022
   strategy:
     type: RollingUpdate
 
@@ -32,7 +36,7 @@ spec:
         image: nginx:latest
 
         ports:
-        - containerPort: 3000
+        - containerPort: 80
 
         resources:
           requests:
@@ -57,5 +61,5 @@ spec:
 
   ports:
   - protocol: TCP
-    port: 3000
-    targetPort: 3000
+    port: 80
+    targetPort: 80
